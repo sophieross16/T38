@@ -33,9 +33,9 @@ def movie_similarity(description):
     # Adding the movie, description and similarity value to the similarities list
         similarity_val = [movie[0], movie[1], similarity]
         similarities.append(similarity_val)
-    for index in similarities:
     # Initialising the highest simlarity value as 0 in order to find the largest
         highest_val = 0
+    for index in similarities:
         if index[2] > highest_val:
             highest_val = index[2]
             highest_movie = index[0]
@@ -45,5 +45,5 @@ def movie_similarity(description):
     print(f'\nDescription: {highest_description}')
 
 # Testing function
-movie_similarity('Adapted from the bestselling novel by Madeleine St John, Ladies in Black is an alluring and tender-hearted comedy drama about the lives of a group of department store employees in 1959 Sydney.')
-    
+inputted_description = input('Enter a movie description: ')
+movie_similarity(inputted_description)
