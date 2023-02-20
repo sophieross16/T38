@@ -26,7 +26,7 @@ This file is used to read in movies and descriptions for the watch_next.py progr
  
 ## 2 - Installation: 
  To install the project locally, perform the following steps:
-  1 - Download the files and ensure they are saved in the same folder
+  1 - Download the files from the 'master' branch and ensure they are saved in the same folder
   2 - Use a Python compiler of your choice (this program was built using Spyder) 
   3 - Open the .py files (semantic.py, example.py, watch_next.py) and run the program
  
